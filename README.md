@@ -31,7 +31,7 @@ These scripts make **direct modifications** to your Emby database. While tested 
 
 1. **Stop Emby Server**
 2. **Backup your `library.db`** (typically found under `AppData/Roaming/Emby-Server/programdata/data` (Windows))  You can find the location using these instructions: https://emby.media/support/articles/Corrupt-Database.html#find-location-of-database-files
-3. Run the provided SQL scripts using a SQLite client like `Command Shell Line for SQLite` https://sqlite.org/cli.html
+3. Run the provided SQL commands located in DeleteCollections.sql using a SQLite client like `Command Shell Line for SQLite` https://sqlite.org/cli.html
 4. Restart Emby Server and verify that unwanted collections are removed
 
 ## ✅ Compatibility
